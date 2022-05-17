@@ -1,0 +1,19 @@
+# VSCode - other than the launch
+.vscode
+
+# Pipenv
+Pipfile.lock
+
+# python package
+data
+dist
+*.whl
+*.tar.gz
+__pycache__
+*.egg-info
+
+# macOS
+.DS_Store
+
+# misc
+*.png
