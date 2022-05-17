@@ -29,3 +29,15 @@ make reinstall
 make rebuild
 
 ```
+
+## Development
+
+Accessing `pipenv` environment for development.
+```sh
+pipenv shell
+```
+
+Installing packages in the `pipenv` environment
+```sh
+pipenv install <package>
+```
