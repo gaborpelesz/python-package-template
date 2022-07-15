@@ -5,7 +5,7 @@ import argparse
 def parse_args(args):
     parser = argparse.ArgumentParser(description='...')
 
-    parser.parse_args('-e', '--example', type=str, help='Example argument')
+    parser.add_argument('-e', '--example', type=str, help='Example argument')
 
     parsed = parser.parse_args(args)
 
@@ -17,6 +17,7 @@ def _main(args):
     parsed = parse_args(args)
 
     # do something with `parsed`...
+    print(f"Hello from '{os.path.basename(__file__)}'")
 
 
 if __name__ == '__main__':
